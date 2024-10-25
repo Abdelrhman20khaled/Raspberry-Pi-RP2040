@@ -24,7 +24,7 @@ This repository contains the following key files and directories:
 ## Schematic
 The RP2040 custom board schematic covers all necessary connections, including power supply, GPIO pins, and communication interfaces like I2C, SPI, and UART.
 
-![RP2040 Schematic](Project Diagram.jpg)
+<img src="Project Diagram.jpg" width="200"/>
 
 ## PCB Layout
 The PCB layout optimizes signal routing and ensures low noise for high-performance applications. The board has a compact design, making it suitable for embedded applications.
