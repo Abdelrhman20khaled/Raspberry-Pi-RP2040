@@ -31,9 +31,8 @@ The PCB layout optimizes signal routing and ensures low noise for high-performan
 
 ### PCB Layout Images
 
-| Final Layout | Non-Signal Layer | Final PCB |
-|--------------|------------------|-----------|
-| ![Final Layout](images/Final_Layout.jpg) | ![Non Signal Layer](images/Non_Signal_Layer.jpg) | ![Final PCB](images/Final_PCB.jpg) |
+<img src="Layout.jpg" width="500"/>
+<img src="3D Body.jpg" width="500"/>
 
 ## How to Use
 1. **Download the files**: Clone or download the repository to access the schematic, layout, and 3D models.
