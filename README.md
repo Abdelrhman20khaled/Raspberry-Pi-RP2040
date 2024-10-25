@@ -24,8 +24,7 @@ This repository contains the following key files and directories:
 - `Schematic/`: Contains the full schematic design of the board.
 - `Layout/`: Includes the PCB layout files, such as Gerbers and board design.
 - `3D_Model/`: Optional 3D model of the board for visualization purposes.
-- `Firmware/`: (Optional) Example code and libraries for interfacing with the RP2040.
-
+- 
 ## Schematic
 The RP2040 custom board schematic covers all necessary connections, including power supply, GPIO pins, and communication interfaces like I2C, SPI, and UART.
 
@@ -35,11 +34,6 @@ The RP2040 custom board schematic covers all necessary connections, including po
 The PCB layout optimizes signal routing and ensures low noise for high-performance applications. The 4-layer design helps isolate power and ground planes, minimizing signal interference and ensuring robust performance in embedded applications.
 
 ### PCB Layout Images
-
-| Final Layout | Non-Signal Layer | Final PCB |
-|--------------|------------------|-----------|
-| ![Final Layout](images/Final_Layout.jpg) | ![Non Signal Layer](images/Non_Signal_Layer.jpg) | ![Final PCB](images/Final_PCB.jpg) |
-
 <img src="Layout.jpg" width="500"/>
 <img src="3D Body.jpg" width="500"/>
 
@@ -51,7 +45,4 @@ The PCB layout optimizes signal routing and ensures low noise for high-performan
 
 ---
 
-**Contributions**: We welcome any improvements or contributions! Feel free to open a pull request or issue.
-
-## License
-This project is licensed under the MIT License. Feel free to use, modify, and distribute the design files as long as you give appropriate credit.
+**Contributions**: I am welcome any improvements or contributions! Feel free to open a pull request or issue.
