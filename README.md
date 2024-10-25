@@ -1,13 +1,18 @@
 # RP2040 Custom Design Board
 
 ## Overview
-This is an open-source hardware project featuring a custom-designed PCB based on the **Raspberry Pi RP2040** microcontroller. The board is designed for various embedded applications, including IoT, robotics, and more. The project includes the **schematic** and **layout** files required to build the board, as well as detailed information on the hardware design.
+This is an open-source hardware project featuring a custom-designed, 4-layer PCB based on the **Raspberry Pi RP2040** microcontroller. The board is designed for various embedded applications, including IoT, robotics, and more. The project includes the **schematic** and **layout** files required to build the board, as well as detailed information on the hardware design.
 
 The goal of this project is to provide a modular and scalable platform for developers, hobbyists, and professionals who want to integrate the RP2040 into their projects.
 
 ## Features
 - **Microcontroller**: Raspberry Pi RP2040 (Dual-core ARM Cortex-M0+)
 - **Input Voltage**: 3.3V
+- **4-layer PCB Stack-up**:
+  - **Layer 1**: Signal
+  - **Layer 2**: Ground (GND)
+  - **Layer 3**: Power
+  - **Layer 4**: Signal
 - **Custom PCB Design**: Designed from scratch using **Altium Designer**
 - **Connectivity**: Support for GPIO, I2C, SPI, UART, and more
 - **Expandable**: Pins are broken out for easy access and extension
@@ -27,9 +32,13 @@ The RP2040 custom board schematic covers all necessary connections, including po
 <img src="Project Diagram.jpg" width="500"/>
 
 ## PCB Layout
-The PCB layout optimizes signal routing and ensures low noise for high-performance applications. The board has a compact design, making it suitable for embedded applications.
+The PCB layout optimizes signal routing and ensures low noise for high-performance applications. The 4-layer design helps isolate power and ground planes, minimizing signal interference and ensuring robust performance in embedded applications.
 
 ### PCB Layout Images
+
+| Final Layout | Non-Signal Layer | Final PCB |
+|--------------|------------------|-----------|
+| ![Final Layout](images/Final_Layout.jpg) | ![Non Signal Layer](images/Non_Signal_Layer.jpg) | ![Final PCB](images/Final_PCB.jpg) |
 
 <img src="Layout.jpg" width="500"/>
 <img src="3D Body.jpg" width="500"/>
@@ -44,3 +53,5 @@ The PCB layout optimizes signal routing and ensures low noise for high-performan
 
 **Contributions**: We welcome any improvements or contributions! Feel free to open a pull request or issue.
 
+## License
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the design files as long as you give appropriate credit.
