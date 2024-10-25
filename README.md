@@ -41,9 +41,6 @@ The PCB layout optimizes signal routing and ensures low noise for high-performan
 3. **Program the RP2040**: You can use the **Arduino IDE** or **MicroPython** to program the RP2040, or write your own firmware using **C/C++**.
 4. **Connect and Prototype**: Leverage the GPIO and communication interfaces to start prototyping with sensors, actuators, and other peripherals.
 
-## License
-This project is licensed under the MIT License. Feel free to use, modify, and distribute the design files as long as you give appropriate credit.
-
 ---
 
 **Contributions**: We welcome any improvements or contributions! Feel free to open a pull request or issue.
