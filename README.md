@@ -34,7 +34,7 @@ The RP2040 custom board schematic covers all necessary connections, including po
 The PCB layout optimizes signal routing and ensures low noise for high-performance applications. The 4-layer design helps isolate power and ground planes, minimizing signal interference and ensuring robust performance in embedded applications.
 
 ### PCB Layout Images
-<img src="Layout.jpg" width="500"/>
+<img src="Images/Full_Layout.jpg" width="500"/>
 <img src="3D Body.jpg" width="500"/>
 
 ## How to Use
