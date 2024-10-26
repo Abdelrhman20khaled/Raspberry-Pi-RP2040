@@ -35,7 +35,13 @@ The PCB layout optimizes signal routing and ensures low noise for high-performan
 
 ### PCB Layout Images
 <img src="Images/Full_Layout.jpg" width="500"/>
-<img src="3D Body.jpg" width="500"/>
+<img src="Images/Top_Layer.jpg" width="500"/>
+<img src="Images/Power_Layer.jpg" width="500"/>
+<img src="Images/GND_Layer.jpg" width="500"/>
+<img src="Images/Bottom_Layer.jpg" width="500"/>
+<img src="Images/3D_B1.jpg" width="500"/>
+<img src="Images/3D_B2.jpg" width="500"/>
+<img src="Images/3D_Ele.jpg" width="500"/>
 
 ## How to Use
 1. **Download the files**: Clone or download the repository to access the schematic, layout, and 3D models.
